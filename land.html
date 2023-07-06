@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <select name="cars" id="cars">
+        <option value="volvo" id="carss">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+    <img src="https://image.freepik.com/free-photo/stone-table-top-and-blurred-bokeh-cafe-and-restaurant-background-with-vintage-filter_7191-523.jpg"
+        alt="" id="imggs">
+    <script>
+        var a = document.getElementById("carss").value;
+        if (a == "Volvo") {
+            document.getElementById("imggs").style.backgroundImage = "https://th.bing.com/th/id/OIP.DqbGnd9h_l1pinFHAujSyAHaE7?pid=ImgDet&w=509&h=339&rs=1";
+        }
+    </script>
+</body>
+
+</html>
